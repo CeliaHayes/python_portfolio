@@ -4,12 +4,12 @@ This is the portfolio of python code that I learned during BISC 450C.
 
 ## Python Fundamentals
 
-
+'''Python
 name = "Sara"
 age = 22
 height_cm = 164.3
 print(f"{name} is {age} years old and {height_cm} cm tall.")
-
+'''
 dna = "ATCG"
 print("DNA Length:", len(dna))
 print("First base:", dna[0])

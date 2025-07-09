@@ -5,9 +5,9 @@ This is the portfolio of python code that I learned during BISC 450C.
 ## Python Fundamentals
 
 
-name = "Alice"
-age = 25
-height_cm = 165.4
+name = "Sara"
+age = 22
+height_cm = 164.3
 print(f"{name} is {age} years old and {height_cm} cm tall.")
 
 dna = "ATCG"
@@ -111,8 +111,7 @@ print("G count:", count_base("AGCTGGCTA", "G"))
 
 def safe_divide(x, y):
     try:
-        return x / y
-    except ZeroDivisionError:
+    
         print("Error: Cannot divide by zero.")
         return None
 
